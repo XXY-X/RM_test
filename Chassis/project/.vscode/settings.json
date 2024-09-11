@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "i2c.h": "c",
+        "vl53l0x_i2c.h": "c",
+        "main.h": "c",
+        "vl53l0x.h": "c"
+    }
+}
