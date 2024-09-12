@@ -7,7 +7,7 @@
 // ******************************************************************************
 // */
 
-//#include "main.h"
+#include "main.h"
 
 ///* clock frequency */
 //RCC_ClocksTypeDef get_rcc_clock;

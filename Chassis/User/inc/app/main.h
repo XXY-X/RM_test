@@ -1,14 +1,14 @@
-//#ifndef __MAIN_H
-//#define __MAIN_H
-///* Library */
-//#include <stm32f4xx.h>
-//#include <stm32f4xx_conf.h>
-//#include <string.h>
-//#include <stdint.h>
-//#include <math.h>
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include "arm_math.h"
+#ifndef __MAIN_H
+#define __MAIN_H
+/* Library */
+#include <stm32f4xx.h>
+#include <stm32f4xx_conf.h>
+#include <string.h>
+#include <stdint.h>
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include "arm_math.h"
 
 ///* Mylib */
 //#include "os_tick.h"
@@ -47,4 +47,4 @@
 //void Robot_Init(void);
 //void startTask(void);
 
-//#endif
+#endif

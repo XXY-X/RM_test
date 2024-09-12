@@ -46,7 +46,34 @@ I (..\Library\inc\misc.h)(0x66605CCD)
 I (..\Library\inc\stm32f4xx_can.h)(0x66605CCD)
 I (..\Library\inc\stm32f4xx_dac.h)(0x66605CCD)
 F (..\User\src\sys\startup_stm32f40_41xxx.s)(0x66605CCD)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\working_soft\MDK\soft_534\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 538" --pd "STM32F405xx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
-F (..\User\src\app\main.c)(0x66E19ECD)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\include -I ..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\Library\CMSIS -I ..\Library\CMSIS\FastMath -I ..\Library\SEGGER_RTT_V784\Config -I ..\Library\SEGGER_RTT_V784\RTT -I ..\Library\inc -I ..\User\inc\app -I ..\User\inc\config -I ..\User\inc\FATFS -I ..\User\inc\motor -I ..\User\inc\os -I ..\User\inc\peripheral -I ..\User\inc\sys -I ..\User\inc\tools-ID:\working_soft\MDK\soft_534\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F405xx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\User\src\app\main.c)(0x66E1A9CF)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\include -I ..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\Library\CMSIS -I ..\Library\CMSIS\FastMath -I ..\Library\SEGGER_RTT_V784\Config -I ..\Library\SEGGER_RTT_V784\RTT -I ..\Library\inc -I ..\User\inc\app -I ..\User\inc\config -I ..\User\inc\FATFS -I ..\User\inc\motor -I ..\User\inc\os -I ..\User\inc\peripheral -I ..\User\inc\sys -I ..\User\inc\tools-ID:\working_soft\MDK\soft_534\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F405xx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\User\inc\app\main.h)(0x66E1AA94)
+I (..\User\inc\sys\stm32f4xx.h)(0x66605CCD)
+I (..\Library\CMSIS\core_cm4.h)(0x66605CCD)
+I (D:\working_soft\MDK\soft_534\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Library\CMSIS\core_cmInstr.h)(0x66605CCD)
+I (..\Library\CMSIS\core_cmFunc.h)(0x66605CCD)
+I (..\Library\CMSIS\core_cm4_simd.h)(0x66605CCD)
+I (..\User\inc\sys\system_stm32f4xx.h)(0x66605CCD)
+I (..\User\inc\sys\stm32f4xx_conf.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_adc.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_dbgmcu.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_dma.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_exti.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_gpio.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_rcc.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_spi.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_syscfg.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_tim.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_usart.h)(0x66605CCD)
+I (..\Library\inc\misc.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_can.h)(0x66605CCD)
+I (..\Library\inc\stm32f4xx_dac.h)(0x66605CCD)
+I (D:\working_soft\MDK\soft_534\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\working_soft\MDK\soft_534\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (D:\working_soft\MDK\soft_534\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\working_soft\MDK\soft_534\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\CMSIS\arm_math.h)(0x66605CCD)
 F (..\Library\src\misc.c)(0x66605CCD)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\include -I ..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\Library\CMSIS -I ..\Library\CMSIS\FastMath -I ..\Library\SEGGER_RTT_V784\Config -I ..\Library\SEGGER_RTT_V784\RTT -I ..\Library\inc -I ..\User\inc\app -I ..\User\inc\config -I ..\User\inc\FATFS -I ..\User\inc\motor -I ..\User\inc\os -I ..\User\inc\peripheral -I ..\User\inc\sys -I ..\User\inc\tools-ID:\working_soft\MDK\soft_534\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F405xx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (..\Library\inc\misc.h)(0x66605CCD)
 I (..\User\inc\sys\stm32f4xx.h)(0x66605CCD)
@@ -473,7 +500,6 @@ I (..\Library\inc\stm32f4xx_usart.h)(0x66605CCD)
 I (..\Library\inc\misc.h)(0x66605CCD)
 I (..\Library\inc\stm32f4xx_can.h)(0x66605CCD)
 I (..\Library\inc\stm32f4xx_dac.h)(0x66605CCD)
-F (..\Library\CMSIS\arm_cortexM4lf_math.lib)(0x00000000)()
 F (..\Library\src\stm32f4xx_dbgmcu.c)(0x66605CCD)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\FreeRTOS\include -I ..\FreeRTOS\port\RVDS\ARM_CM4F -I ..\Library\CMSIS -I ..\Library\CMSIS\FastMath -I ..\Library\SEGGER_RTT_V784\Config -I ..\Library\SEGGER_RTT_V784\RTT -I ..\Library\inc -I ..\User\inc\app -I ..\User\inc\config -I ..\User\inc\FATFS -I ..\User\inc\motor -I ..\User\inc\os -I ..\User\inc\peripheral -I ..\User\inc\sys -I ..\User\inc\tools-ID:\working_soft\MDK\soft_534\Packs\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="538" -DSTM32F405xx -DUSE_STDPERIPH_DRIVER -DSTM32F40_41xxx -DARM_MATH_CM4 -D__FPU_PRESENT="1" -D__FPU_USED="1" -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING-o .\objects\stm32f4xx_dbgmcu.o --omf_browse .\objects\stm32f4xx_dbgmcu.crf --depend .\objects\stm32f4xx_dbgmcu.d)
 I (..\Library\inc\stm32f4xx_dbgmcu.h)(0x66605CCD)
 I (..\User\inc\sys\stm32f4xx.h)(0x66605CCD)

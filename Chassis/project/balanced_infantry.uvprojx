@@ -505,11 +505,6 @@
               <FilePath>..\Library\src\stm32f4xx_wwdg.c</FilePath>
             </File>
             <File>
-              <FileName>arm_cortexM4lf_math.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\Library\CMSIS\arm_cortexM4lf_math.lib</FilePath>
-            </File>
-            <File>
               <FileName>stm32f4xx_dbgmcu.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Library\src\stm32f4xx_dbgmcu.c</FilePath>
