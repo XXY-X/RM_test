@@ -6,7 +6,9 @@
 #include "remote_control.h"
 
 #pragma pack(push, 1)
-
+/*
+云台数据包接收解码，并把各信息赋值到相应变量
+*/
 typedef struct GimbalReceivePack1//云台接收结构体1，主要是控制相关的状态量
 {
   uint16_t robot_state : 1;// 机器人状态(掉线模式0，控制模式1)

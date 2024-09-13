@@ -33,7 +33,12 @@
 
 #include "robot_config.h"
 #include "mecanum.h"
-
+/*
+主要执行调用电机反馈值解码函数
+调用x，y向速度结算成四个轮子的速度以及电流的函数
+调用发送set电流给电机的函数
+执行函数间的选择调用，非计算
+*/
 typedef struct Sensors
 {
     GM6020_Recv steer_recv[4];//舵原始数据
