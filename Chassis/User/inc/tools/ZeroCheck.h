@@ -10,6 +10,6 @@ typedef struct
 	float PreError;	   // 检测量判断差值
 } ZeroCheck_Typedef;
 
-float ZeroCheck(ZeroCheck_Typedef *Zero, float value, float CountCycle);
+float ZeroCheck(ZeroCheck_Typedef *Zero, float value, float CountCycle);//过零检测
 
 #endif

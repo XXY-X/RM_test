@@ -10,6 +10,9 @@
  * copied from https://github.com/WangHongxi2001/RoboMaster-C-Board-INS-Example
  ******************************************************************************
  */
+/*
+获取ins数据解算出IMU角度
+*/
 #ifndef _INS_H_
 #define _INS_H_
 

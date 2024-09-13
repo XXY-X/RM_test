@@ -1,6 +1,8 @@
 #ifndef _ROBOT_CONFIG_H
 #define _ROBOT_CONFIG_H
-
+/*
+车的各电机类型设置
+*/
 /*  机器人宏定义列举 */
 #define NIU_MO_SON 0
 #define CHEN_JING_YUAN 1

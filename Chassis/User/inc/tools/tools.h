@@ -14,7 +14,9 @@
 #ifndef PI_2
 #define PI_2 6.2831853072f
 #endif
-
+/*
+延时工具
+*/
 /* 普通延时 */
 void delay_ms(unsigned long t);
 void delay_us(unsigned long t);
