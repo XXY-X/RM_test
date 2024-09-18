@@ -1,0 +1,13 @@
+ins_task\start_task.o: ..\Task\src\Start_Task.c
+ins_task\start_task.o: ..\Task\inc\Start_Task.h
+ins_task\start_task.o: ../Inc/FreeRTOSConfig.h
+ins_task\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+ins_task\start_task.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+ins_task\start_task.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
